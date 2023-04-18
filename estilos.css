@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Climate+Crisis&family=Concert+One&family=Cormorant+Upright&family=Delicious+Handrawn&family=Handlee&family=Josefin+Sans&family=Klee+One&family=Laila&family=Lexend+Deca:wght@200&family=Noto+Sans+JP:wght@300&family=Noto+Serif+Tamil:wght@100&family=Patrick+Hand&family=Paytone+One&family=Rampart+One&family=Shantell+Sans:ital,wght@0,300;1,300&family=Yomogi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Clicker+Script&family=Climate+Crisis&family=Concert+One&family=Cormorant+Upright&family=Delicious+Handrawn&family=Handlee&family=Josefin+Sans&family=Klee+One&family=Laila&family=Lexend+Deca:wght@200&family=Noto+Sans+JP:wght@300&family=Noto+Serif+Tamil:wght@100&family=Patrick+Hand&family=Paytone+One&family=Rampart+One&family=Shantell+Sans:ital,wght@0,300;1,300&family=Yomogi&display=swap");
+* {
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  width: 170px;
+  height: 140px;
+  box-shadow: 0 0 8px #cbc8c8;
+}
+
+.bg-dark {
+  background-color: rgb(144, 144, 144) !important;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.navbar-nav {
+  animation: bounce;
+  animation-duration: 3s;
+}
+
+a.nav-link {
+  color: rgb(255, 255, 255) !important;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-shadow: 0 4px 6px #100f0f;
+  font-family: "Patrick Hand", cursive;
+  padding: 25px !important;
+}
+
+a.nav-link:hover {
+  border-radius: 40px;
+  transition: 1s;
+  background: #6c6a6a;
+}
+
+.jumbotron {
+  background-image: url(./img/fondo.jpg);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 30px;
+  border-radius: 0;
+}
+
+.jumbotron h3 {
+  font-family: "Clicker Script", cursive;
+  font-weight: bolder;
+  font-size: 40px;
+  text-shadow: 0 2px 3px #fff;
+  margin-bottom: 0;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-delay: 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+}
+h2 {
+  background-color: #626060;
+  height: 60px;
+  text-transform: capitalize;
+  color: #fff;
+  text-shadow: 0 3px 5px black;
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+  font-size: 45px;
+}
+
+.container-fluid {
+  background-color: #626060;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.titulo1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Patrick Hand", cursive;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 0 4px 3px #100f0f;
+}
+
+.main {
+  background-image: url(./img/recepcion\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #100f0f;
+  padding-top: 15px;
+}
+
+.aside {
+  background-image: linear-gradient(to bottom right, rgb(179, 179, 186), rgb(223, 222, 222), rgb(129, 209, 219));
+  width: 100%;
+  border: 2px solid #100f0f;
+  padding-top: 15px;
+}
+
+h4 {
+  font-family: "Patrick Hand", cursive;
+  font-size: 35px;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 0 4px 5px #fff;
+}
+
+p {
+  font-family: "Clicker Script", cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 0 5px 5px #fff;
+  padding-top: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+}
+
+.container-fluid {
+  max-width: 100%;
+  margin: 30px auto;
+}
+
+.footer-row {
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-informacion {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-informacion h5 {
+  font-size: 20px;
+  color: #fff;
+  font-family: "Patrick Hand", cursive;
+  text-shadow: 0 5px 5px #1a1a1a;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.footer-informacion li {
+  list-style: none;
+  padding-bottom: 15px;
+  color: #fff;
+  font-family: "Patrick Hand", cursive;
+  text-shadow: 0 5px 5px #1a1a1a;
+  text-transform: capitalize;
+}
+
+ul li i {
+  padding: 10px;
+  font-size: 25px;
+  color: #71e9d1;
+}
+
+.body {
+  background-color: #747373;
+}
+
+.masajes {
+  height: 500px;
+  width: 100%;
+  background-color: #90dccc;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  justify-content: space-evenly;
+}
+
+.masaj {
+  width: 50%;
+  height: 480px;
+  background-color: #666262;
+}
+
+.masaj:hover {
+  transform: scale(1.09);
+  transition: all 0.8s;
+}
+
+.masajes1 {
+  background-color: #ffffff;
+  height: 60%;
+  background-image: url(./img/masaje1.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 3px 4px #100f0f, inset 0 3px 4px #100f0f, inset 0 3px 4px #100f0f;
+}
+
+.descripcion {
+  padding: 5px;
+  box-shadow: inset 0 3px 4px #100f0f, inset 0 3px 4px #100f0f, inset 0 3px 4px #100f0f;
+}
+
+.descripcion h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #71e9d1;
+  text-align: center;
+  text-shadow: 0 3px 5px #100f0f;
+}
+
+.parrafo1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: aliceblue;
+  text-shadow: 0 3px 5px #100f0f;
+}
+
+.masajes2 {
+  background-color: #ffffff;
+  height: 60%;
+  background-image: url(./img/masajes2.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 3px 4px #100f0f, inset 0 3px 4px #100f0f, inset 0 3px 4px #100f0f;
+}
+
+.parrafo2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: aliceblue;
+  text-shadow: 0 3px 5px #100f0f;
+}
+
+.masajes3 {
+  background-color: #ffffff;
+  height: 60%;
+  background-image: url(./img/masaje3.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 3px 4px #100f0f, inset 0 3px 4px #100f0f, inset 0 3px 4px #100f0f;
+}
+
+.parrafo3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: aliceblue;
+  text-shadow: 0 3px 5px #100f0f;
+}
+
+.video {
+  padding-top: 50px;
+  padding-left: 500px;
+}
+
+.redes-footer {
+  background-color: #1a1a1a;
+  color: #eff4f5;
+  text-align: center;
+  height: 50px;
+  letter-spacing: 15px;
+  font-size: 30px;
+  text-shadow: 0 3px 2px #747373;
+}/*# sourceMappingURL=estilos.css.map */
